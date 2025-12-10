@@ -37,7 +37,7 @@
     "leaflet": "^1.9.4",
     "mediasoup-client": "^3.9.5",
     "moment": "^2.30.1",
-    "next": "15.2.4",
+    "next": "15.5.7",
     "pino": "^9.6.0",
     "puppeteer": "^24.23.0",
     "random-words": "^2.0.1",

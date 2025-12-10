@@ -1,0 +1,154 @@
+.welcome-hotel-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .welcome-hotel-content {
+    background-color: #002f6c0d;
+    padding: 50px 150px;
+    width: 100%;
+    .content-left-right-part {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      width: 100%;
+      .content-left-part {
+
+        .left-image {
+          width: 545px;
+          height: 417px;
+          border-radius: 18px;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 18px;
+          }
+        }
+      }
+      .content-right-part {
+        h2,
+        p {
+          margin: 0;
+        }
+        h2 {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 30px;
+          line-height: 33px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #002f6c;
+        }
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 18px;
+          line-height: 20px;
+          letter-spacing: 3%;
+          color: #002f6c;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+  button {
+    height: 43px;
+    padding: 0px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+    background: #002f6c;
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 50px 0px;
+  }
+}
+@media (max-width:1280px) {
+.welcome-hotel-section {
+  .welcome-hotel-content {
+    padding: 50px 40px;
+  }
+}
+}
+@media (max-width:1024px) {
+.welcome-hotel-section {
+  .welcome-hotel-content {
+    padding: 40px 20px;
+    .content-left-right-part {
+      gap: 30px;
+      .content-left-part {
+        .left-image {
+          width: 445px;
+          height: 317px;
+        }
+      }
+      .content-right-part {
+        h2 {
+          font-size: 26px;
+        }
+        p {
+          font-size: 16px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width:910px) {
+.welcome-hotel-section {
+  .welcome-hotel-content {
+    .content-left-right-part {
+      flex-direction: column;
+      gap: 40px;
+      .content-left-part {
+        .left-image {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width:768px) {
+.welcome-hotel-section {
+  .welcome-hotel-content {
+    padding: 40px 20px;
+    .content-left-right-part {
+      flex-direction: column;
+      gap: 20px;
+      .content-left-part {
+        .left-image {
+          width: 100%;
+          height: 273px;
+        }
+      }
+      .content-right-part {
+        h2 {
+          font-size: 26px;
+        }
+        p {
+          font-size: 16px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  button {
+    height: 40px;
+    font-size: 14px;
+    margin: 40px 0px;
+  }
+}
+}

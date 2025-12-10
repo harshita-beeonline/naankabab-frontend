@@ -1,0 +1,158 @@
+.why-joinus-section {
+  width: 100%;
+  .why-joinus-image {
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .why-joinus-content {
+    background-image: url("../public/images/whyjoinusbg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px 150px 40px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: #d8eff0;
+    width: 100%;
+    h2 {
+      font-family: Frisbee;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 55px;
+      line-height: 60px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #00aca7;
+      width: 38%;
+    }
+    .divider {
+      width: 2px;
+      height: 274px;
+      background-color: #05a6ab;
+    }
+    .content-box {
+      width: 60%;
+      h6,
+      p {
+        margin: 0;
+      }
+      h6 {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #00aca7;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+        width: 91%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media (max-width:1280px) {
+.why-joinus-section {
+  .why-joinus-content {
+    padding: 60px 40px 40px 40px;
+    gap: 40px;
+  }
+}
+}
+@media (max-width:1024px) {
+.why-joinus-section {
+  .why-joinus-image {
+    height: 400px;
+  }
+  .why-joinus-content {
+    padding: 60px 20px 40px 20px;
+    gap: 30px;
+    h2 {
+      font-size: 45px;
+    }
+    .content-box {
+      p {
+        width: 100%;
+      }
+    }
+  }
+}
+}
+@media (max-width:912px) {
+.why-joinus-section {
+  .why-joinus-image {
+    height: 320px;
+  }
+  .why-joinus-content {
+    padding: 60px 20px 40px 20px;
+    gap: 20px;
+    h2 {
+      font-size: 38px;
+    }
+    .divider {
+      height: 274px;
+    }
+    .content-box {
+      width: 50%;
+      h6,
+      p {
+        margin: 0;
+      }
+      h6 {
+        font-size: 16px;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 768px) {
+  .why-joinus-section {
+    .why-joinus-image {
+      height: 264px;
+    }
+    .why-joinus-content {
+      padding: 20px;
+      flex-direction: column;
+      gap: 0px;
+      h2 {
+        font-size: 24px;
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+      }
+      .divider {
+        display: none;
+      }
+      .content-box {
+        width: 100%;
+        h6 {
+          font-size: 16px;
+        }
+        p {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+.franchise-overview-section {
+  width: 100%;
+  padding: 0px 0px 0px 150px;
+  background: #f2d4e6;
+  .franchise-overview-left-right-part {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    .franchise-overview-left-part {
+      h2,
+      p {
+        margin: 0;
+      }
+      h2 {
+        font-family: Frisbee;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 55px;
+        line-height: 60px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #922b7b;
+        margin-bottom: 40px;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+        width: 85%;
+      }
+      .list-data {
+        margin-top: 20px;
+        li {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: 0%;
+          color: #2c2c2c;
+          margin-left: 22px;
+        }
+      }
+    }
+    .franchise-overview-right-part {
+      .overview-image {
+        width: 722px;
+        height: 693px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+.be-part-section {
+  width: 100%;
+  background: #fbe5ef;
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2,
+  p {
+    margin: 0;
+  }
+  h2 {
+    font-family: Frisbee;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9a3488;
+    margin-bottom: 15px;
+  }
+  p {
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2c2c2c;
+  }
+  button {
+    width: 201px;
+    height: 40px;
+    border-radius: 18px;
+    background: #982f7f;
+    cursor: pointer;
+    border: none;
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 25px 0px;
+  }
+}
+@media (max-width:1380px) {
+.franchise-overview-section {
+  padding: 0px 0px 0px 40px;
+  .franchise-overview-left-right-part {
+    gap: 40px;
+  }
+}
+}
+@media (max-width:1180px) {
+.franchise-overview-section {
+  padding: 0px 0px 0px 20px;
+  .franchise-overview-left-right-part {
+    gap: 40px;
+    .franchise-overview-left-part {
+      h2 {
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        width: 90%;
+      }
+    }
+    .franchise-overview-right-part {
+      .overview-image {
+        width: 522px;
+        height: 493px;
+      }
+    }
+  }
+}
+.be-part-section {
+  padding: 80px 20px;
+  h2 {
+    font-size: 45px;
+  }
+}
+}
+@media (max-width:938px) {
+.franchise-overview-section {
+  .franchise-overview-left-right-part {
+    gap: 20px;
+    .franchise-overview-right-part {
+      .overview-image {
+        width: 422px;
+        height: 393px;
+      }
+    }
+  }
+}
+.be-part-section {
+  padding: 60px 20px;
+  h2 {
+    font-size: 38px;
+  }
+}
+}
+@media (max-width:768px) {
+.franchise-overview-section {
+  padding: 20px;
+  .franchise-overview-left-right-part {
+    flex-direction: column;
+    gap: 20px;
+    .franchise-overview-left-part {
+      h2 {
+        font-size: 24px;
+        margin-bottom: 0px;
+      }
+      p {
+        width: 100%;
+      }
+      .list-data {
+        margin-top: 20px;
+        li {
+          margin-left: 22px;
+        }
+      }
+    }
+    .franchise-overview-right-part {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .overview-image {
+        width: 353px;
+        height:313px;
+      }
+    }
+  }
+}
+.be-part-section {
+  padding: 40px 20px;
+  h2 {
+    font-size: 24px;
+    line-height:25px;
+    margin-bottom: 15px;
+  }
+  button {
+    margin: 25px 0px;
+  }
+}
+}

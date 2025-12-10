@@ -1,0 +1,334 @@
+.fromthegrill-section {
+  background-color: #f9f6e8;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+
+  .FromtheGrillTwitter-left {
+    position: absolute;
+    top: 400px;
+    left: 0;
+  }
+
+  .FromtheGrillTwitter-right {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+  }
+
+  .fromthegrill-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+    .fromthegrill-top-content {
+      width: 1140px;
+
+      img {
+        width: 100%;
+        height: auto;
+        transform: scaleX(-1);
+      }
+    }
+
+    .fromthegrill-bottom-content {
+      margin-top: -50px;
+      width: 1140px;
+      background-color: #00ada81a;
+      padding: 60px 50px;
+      border-radius: 18px;
+
+      .fromthegrill-bottom-content-heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 45px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #00ada8;
+        }
+
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #00ada8;
+        }
+      }
+
+      .fromthegrill-bottom-content-data {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-top: 50px;
+        gap: 40px;
+        position: relative;
+
+        .divider {
+          width: 1px;
+          background-color: rgba(0, 47, 108, 0.2);
+          height: auto;
+          align-self: stretch;
+        }
+
+        .fromthegrill-bottom-content-left,
+        .fromthegrill-bottom-content-right {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+        }
+
+        .signature-title {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 18px;
+          color: #00ada8;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+
+        .fromthegrill-menu {
+          .fromthegrill-menu-heading-withprice {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+              padding: 0;
+              margin: 0;
+            }
+
+            .fromthegrill-menu-heading {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+
+              p {
+                font-family: Brother 1816;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 18px;
+                line-height: 20px;
+                text-transform: uppercase;
+              }
+
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+
+            p {
+              font-family: "Brother 1816", sans-serif;
+              font-weight: 400;
+              font-size: 18px;
+              color: #002f6c;
+            }
+          }
+
+          .p {
+            font-family: "Brother 1816", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #002f6c;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .fromthegrill-section {
+    .fromthegrill-content {
+      .fromthegrill-top-content,
+      .fromthegrill-bottom-content {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .fromthegrill-section {
+    padding: 50px 0;
+
+    .FromtheGrillTwitter-left {
+      top: 250px;
+      width: 180px;
+      height: auto;
+    }
+
+    .FromtheGrillTwitter-right {
+      bottom: 20px;
+      width: 100px;
+      height: auto;
+    }
+
+    .fromthegrill-content {
+      .fromthegrill-top-content {
+        width: 90%;
+      }
+
+      .fromthegrill-bottom-content {
+        width: 90%;
+        padding: 40px 30px;
+        margin-top: -40px;
+
+        .fromthegrill-bottom-content-heading {
+          grid-template-columns: 1fr;
+          text-align: center;
+          gap: 20px;
+
+          h2 {
+            font-size: 45px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .fromthegrill-section {
+    padding: 50px 0;
+
+    .fromthegrill-content {
+      .fromthegrill-bottom-content {
+        padding: 30px 20px;
+
+        .fromthegrill-bottom-content-heading {
+          h2 {
+            font-size: 35px;
+            line-height: 38px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+
+        .fromthegrill-bottom-content-data {
+          .fromthegrill-menu {
+            .fromthegrill-menu-heading-withprice {
+              .fromthegrill-menu-heading p,
+              p {
+                font-size: 14px;
+              }
+            }
+
+            .p {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .fromthegrill-section {
+    padding: 20px 0;
+
+    .FromtheGrillTwitter-left {
+      top: 100px;
+      width: 40%;
+      height: auto;
+      left: -50px;
+    }
+
+    .FromtheGrillTwitter-right {
+      bottom: 10px;
+      width: 20%;
+      height: 5%;
+    }
+
+    .fromthegrill-content {
+      padding: 0 20px;
+      .fromthegrill-top-content {
+        width: 100%;
+      }
+
+      .fromthegrill-bottom-content {
+        width: 100%;
+        padding: 25px 10px;
+        margin-top: 20px;
+
+        .fromthegrill-bottom-content-heading {
+          text-align: start;
+          gap: 0;
+
+          h2 {
+            font-size: 26px;
+            line-height: 30px;
+          }
+
+          p {
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+
+        .fromthegrill-bottom-content-data {
+          flex-direction: column;
+          margin-top: 10px;
+          gap: 0;
+          .fromthegrill-bottom-content-left{
+            gap: 10px;
+          }
+
+          .fromthegrill-bottom-content-right{
+            gap: 10px;
+          }
+
+          .divider {
+            display: none;
+          }
+
+          .fromthegrill-menu {
+            .fromthegrill-menu-heading-withprice {
+              .fromthegrill-menu-heading p,
+              p {
+                font-size: 12px;
+              }
+            }
+
+            .p {
+              font-size: 11px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

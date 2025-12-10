@@ -1,0 +1,154 @@
+.crafted-care-section {
+  width: 100%;
+  background-color: #fee0be;
+  background-image: url("../public/images/craftcarebg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  .crafted-care-left-right-part {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    .crafted-care-left-part {
+      .craf-care-image {
+        width: 693px;
+        height: 700px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .crafted-care-right-part {
+      h3,
+      p {
+        margin: 0;
+      }
+      h3 {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #f16f26;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+        margin-top: 20px;
+        width: 68%;
+      }
+    }
+  }
+}
+@media (max-width:1280px) {
+.crafted-care-section {
+  .crafted-care-left-right-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .crafted-care-left-part {
+      .craf-care-image {
+        width: 693px;
+        height: 700px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .crafted-care-right-part {
+      p {
+        width: 90%;
+      }
+    }
+  }
+}
+}
+@media (max-width:1024px) {
+.crafted-care-section {
+  .crafted-care-left-right-part {
+    gap: 20px;
+    .crafted-care-left-part {
+      .craf-care-image {
+        width: 493px;
+        height: 500px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .crafted-care-right-part {
+      h3{
+       font-size: 24px;
+       line-height: 28px;
+      }
+      p {
+        width: 95%;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+}
+@media (max-width:1000px) {
+.crafted-care-section {
+  padding: 20px;
+  .crafted-care-left-right-part {
+    gap: 20px;
+    flex-direction: column;
+    .crafted-care-left-part {
+      .craf-care-image {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+}
+@media (max-width: 768px) {
+  .crafted-care-section {
+    background-image: none;
+    .crafted-care-left-right-part {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 0px;
+      .crafted-care-left-part {
+        width: 100%;
+        .craf-care-image {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .crafted-care-right-part {
+        padding: 20px;
+        background-image: url("../public/images/craftcarebg.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        h3 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 12px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

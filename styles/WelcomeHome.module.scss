@@ -1,0 +1,74 @@
+.welcome-home-section {
+  background-color: #d8eff0;
+  padding: 100px;
+
+  .welcome-home-content {
+    h2,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      font-family: Frisbee;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 55px;
+      line-height: 55px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      text-align: center;
+      color: #002f6c;
+    }
+
+    p {
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      text-align: center;
+      color: #002f6c;
+      padding-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .welcome-home-section {
+    padding: 100px 40px 50px 40px;
+
+    .welcome-home-content {
+      h2 {
+        font-size: 48px;
+        line-height: 50px;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-home-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+    .welcome-home-content {
+      h2 {
+        font-size: 24px;
+        line-height: 100%;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 100%;
+      }
+    }
+  }
+}

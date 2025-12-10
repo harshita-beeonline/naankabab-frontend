@@ -1,0 +1,272 @@
+.get-in-touch-section {
+  padding: 100px 50px;
+  background-color: #badaef;
+
+  .get-in-touch-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      font-family: Frisbee;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 55px;
+      text-align: center;
+      color: #002f6c;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 14px;
+      text-align: center;
+      color: #1c1c1c;
+      line-height: 15px;
+    }
+
+    .form-wrap {
+      padding-top: 50px;
+      width: 100%;
+      max-width: 1240px;
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin-bottom: 24px;
+
+        &:nth-child(n + 2) {
+          grid-template-columns: 1fr;
+        }
+
+        .field {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            width: 100%;
+            background: #e6e6e6b2;
+            border: 0;
+            border-radius: 18px;
+            padding: 12px 22px;
+            font-family: Brother 1816;
+            font-size: 16px;
+            color: #203246;
+            outline: none;
+
+            &::placeholder {
+              color: #2c2c2cb2;
+            }
+          }
+        }
+      }
+
+      .actions {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: wrap;
+
+        .btn-submit {
+          background-color: #002f6c;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 18px;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          &:hover {
+            background: #003a84;
+          }
+        }
+
+        .or {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-size: 18px;
+          color: #000000;
+          text-transform: uppercase;
+          line-height: 21%;
+        }
+
+        .btn-whatsapp {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          background-color: #379f31;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 18px;
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-size: 14px;
+          text-transform: uppercase;
+
+          img {
+            width: 18px;
+            height: 18px;
+          }
+
+          p {
+            color: #fff;
+          }
+
+          &:hover {
+            background: #1fb458;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .get-in-touch-section {
+    .get-in-touch-content {
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .get-in-touch-section {
+    padding: 80px 40px;
+
+    .get-in-touch-content {
+      h2 {
+        font-size: 42px;
+      }
+
+      .form-wrap {
+        max-width: 900px;
+
+        .row {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .get-in-touch-section {
+    padding: 60px 30px;
+
+    .get-in-touch-content {
+      h2 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 18px;
+      }
+
+      .form-wrap {
+        padding-top: 40px;
+      }
+
+      .actions {
+        flex-direction: column;
+        gap: 12px;
+
+        .btn-submit,
+        .btn-whatsapp {
+          justify-content: center;
+        }
+
+        .or {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+/* 480px ↓ */
+@media (max-width: 480px) {
+  .get-in-touch-section {
+    padding: 50px 20px;
+
+    .get-in-touch-content {
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .form-wrap {
+        padding-top: 30px;
+
+        .row {
+
+          .field input {
+            font-size: 14px;
+            padding: 10px 16px;
+          }
+        }
+      }
+
+      .actions {
+        gap: 10px;
+
+        .btn-submit,
+        .btn-whatsapp {
+          font-size: 13px;
+          padding: 10px 16px;
+          border-radius: 14px;
+        }
+
+        .or {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+/* 360px ↓ */
+@media (max-width: 360px) {
+  .get-in-touch-section {
+    padding: 40px 16px;
+
+    .get-in-touch-content {
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+
+      .actions {
+        gap: 8px;
+
+        .btn-submit,
+        .btn-whatsapp {
+          font-size: 12px;
+          padding: 8px 14px;
+        }
+      }
+    }
+  }
+}

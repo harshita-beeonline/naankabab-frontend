@@ -1,0 +1,268 @@
+.current-opening-section {
+  width: 100%;
+  background: #d8eff0;
+  background-image: url("../public/images/currentopeningbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 150px;
+  .current-opening-left-right-part {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    width: 100%;
+    .current-opening-left-part {
+      h2,
+      p {
+        margin: 0;
+      }
+      h2 {
+        font-family: Frisbee;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 55px;
+        line-height: 60px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #00aca7;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+        margin-top: 10px;
+        width: 85%;
+      }
+      button {
+        width: 158px;
+        height: 43px;
+        border-radius: 18px;
+        background: #00aca7;
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+        margin-top: 50px;
+      }
+    }
+    .current-opening-right-part {
+      .current-opening-image {
+        width: 525px;
+        height: 407px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      button {
+        display: none;
+      }
+    }
+  }
+}
+.our-promise-section {
+  background-color: #00a7a21a;
+  width: 100%;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h2,
+  p {
+    margin: 0;
+  }
+  h2 {
+    font-family: Frisbee;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00aca7;
+  }
+  p {
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2c2c2c;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .our-promise-image {
+    margin-top: 50px;
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .current-opening-section {
+    padding: 80px 40px;
+  }
+}
+@media (max-width: 1180px) {
+  .current-opening-section {
+    padding: 60px 20px;
+    .current-opening-left-right-part {
+      gap: 40px;
+      .current-opening-left-part {
+        h2 {
+          font-size: 45px;
+        }
+        p {
+          width: 95%;
+        }
+        button {
+          margin-top: 30px;
+        }
+      }
+      .current-opening-right-part {
+        .current-opening-image {
+          width: 425px;
+          height: 307px;
+        }
+      }
+    }
+  }
+  .our-promise-section {
+    padding: 60px 0px;
+    h2 {
+      font-size: 45px;
+    }
+    .our-promise-image {
+      margin-top: 40px;
+      height: 340px;
+    }
+  }
+}
+@media (max-width: 938px) {
+  .current-opening-section {
+    .current-opening-left-right-part {
+      gap: 20px;
+      .current-opening-left-part {
+        h2 {
+          font-size: 38px;
+        }
+      }
+      .current-opening-right-part {
+        .current-opening-image {
+          width: 325px;
+          height: 207px;
+        }
+      }
+    }
+  }
+  .our-promise-section {
+    padding: 60px 0px;
+    h2 {
+      font-size: 38px;
+    }
+    .our-promise-image {
+      height: 240px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .current-opening-section {
+    background-image: url("../public/images/currentopeningbg.png");
+    padding: 40px 20px;
+    .current-opening-left-right-part {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      .current-opening-left-part {
+        h2 {
+          font-size: 22px;
+          line-height: 60px;
+        }
+        p {
+          margin-top: 10px;
+          width: 100%;
+        }
+        button {
+          display: none;
+        }
+      }
+      .current-opening-right-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .current-opening-image {
+          width: 348px;
+          height: 341px;
+          overflow: hidden;
+          img {
+            object-fit: contain;
+          }
+        }
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 134px;
+          height: 40px;
+          border-radius: 18px;
+          background: #00aca7;
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 14px;
+          letter-spacing: 0%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
+          cursor: pointer;
+          border: none;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .our-promise-section {
+    padding: 40px 20px;
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      margin-top: 0px;
+    }
+    .our-promise-image {
+      margin-top: 30px;
+      width: 100%;
+      height: 197px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

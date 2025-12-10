@@ -1,0 +1,27 @@
+.feedback-banner-section{
+    width: 100%;
+    .feedback-banner-image{
+        width: 100%;
+        height: 618px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+@media (max-width:1024px) {
+.feedback-banner-section{
+    .feedback-banner-image{
+        height: 600px;
+    }
+}
+}
+@media (max-width:768px) {
+.feedback-banner-section{
+    .feedback-banner-image{
+        height: 600px;
+    }
+}
+}

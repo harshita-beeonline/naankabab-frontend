@@ -1,0 +1,445 @@
+.SweetFinishSips-section {
+  background-color: #c4e4f7;
+  width: 100%;
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden;
+
+  .SweetFinishSips-section-first {
+    .pattern-left {
+      position: absolute;
+      left: 0;
+    }
+
+    .pattern-right {
+      position: absolute;
+      top: 100px;
+      right: -300px;
+      opacity: 0.7;
+    }
+    .SweetFinishSips-section-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+
+      .SweetFinishSips-section-content-box {
+        padding: 60px 50px;
+        width: 543px;
+        background-color: #002f6c0d;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 45px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #002f6c;
+        }
+
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 17px;
+          line-height: 21px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #002f6c;
+        }
+
+        .info {
+          .info-heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+
+          .info-heading-text {
+            font-size: 14px;
+            line-height: 15px;
+            text-transform: none;
+            padding-top: 5px;
+          }
+        }
+      }
+
+      .desserts {
+        width: 627px;
+        height: 568px;
+        margin-left: -20px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .SweetFinishSips-section-second {
+    .pattern-bottom-left {
+      position: absolute;
+      bottom: -80px;
+      left: -100px;
+      width: 400px;
+      height: 600px;
+      z-index: 1;
+      opacity: 0.7;
+      pointer-events: none;
+      transform: scale(-1, -1);
+      transform-origin: center;
+      user-select: none;
+    }
+
+    .SweetFinishSips-section-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+
+      .drinks {
+        width: 638px;
+        height: 550px;
+        margin-right: -20px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .SweetFinishSips-section-content-box {
+        padding: 60px 50px;
+        width: 543px;
+        background-color: #002f6c0d;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 45px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #002f6c;
+        }
+
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 17px;
+          line-height: 21px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #002f6c;
+        }
+
+        .info {
+          .info-heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+
+          .info-heading-text {
+            font-size: 14px;
+            line-height: 15px;
+            text-transform: none;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .SweetFinishSips-section {
+    .SweetFinishSips-section-first {
+      .pattern-left {
+        width: 100px;
+        height: auto;
+      }
+      .pattern-right {
+        width: 400px;
+        height: auto;
+        right: -200px;
+      }
+      .SweetFinishSips-section-content {
+        padding: 0px 50px;
+        .SweetFinishSips-section-content-box {
+          padding: 40px 30px;
+        }
+        .desserts {
+          width: 60%;
+          height: 60%;
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      .SweetFinishSips-section-content {
+        padding: 0px 50px;
+        .SweetFinishSips-section-content-box {
+          padding: 40px 30px;
+        }
+        .drinks {
+          width: 60%;
+          height: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .SweetFinishSips-section {
+    .SweetFinishSips-section-first {
+      .pattern-left {
+        width: 120px;
+      }
+      .pattern-right {
+        width: 350px;
+        right: -200px;
+      }
+
+      .SweetFinishSips-section-content {
+        padding: 0 40px;
+
+        .SweetFinishSips-section-content-box {
+          width: 500px;
+        }
+
+        .desserts {
+          width: 55%;
+          height: auto;
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      .SweetFinishSips-section-content {
+        padding: 0 40px;
+
+        .drinks {
+          width: 55%;
+          height: auto;
+        }
+
+        .SweetFinishSips-section-content-box {
+          width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 912px) {
+  .SweetFinishSips-section {
+    .SweetFinishSips-section-first {
+      .pattern-right {
+        width: 300px;
+        right: -150px;
+        top: 120px;
+      }
+
+      .SweetFinishSips-section-content {
+        padding: 0 25px;
+
+        .desserts {
+          width: 60%;
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      .SweetFinishSips-section-content {
+        padding: 0 25px;
+
+        .drinks {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .SweetFinishSips-section {
+    .SweetFinishSips-section-first {
+      .SweetFinishSips-section-content {
+        padding: 0px 40px;
+        .SweetFinishSips-section-content-box {
+          h2 {
+            font-size: 40px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      padding-top: 50px;
+      .SweetFinishSips-section-content {
+        h2 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .SweetFinishSips-section {
+    .SweetFinishSips-section-first {
+      .pattern-right {
+        width: 70%;
+        right: -100px;
+        top: 160px;
+      }
+
+      .SweetFinishSips-section-content {
+        gap: 30px;
+
+        .desserts {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      .pattern-bottom-left {
+        width: 70%;
+        top: 500px;
+        left: -60px;
+      }
+
+      .SweetFinishSips-section-content {
+        gap: 30px;
+
+        .drinks {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .SweetFinishSips-section {
+    padding: 20px 0px;
+    .SweetFinishSips-section-first {
+      .pattern-left {
+        width: 20%;
+        height: auto;
+      }
+
+      .pattern-right {
+        width: 80%;
+        height: auto;
+        top: 200px;
+        right: -180px;
+      }
+      .SweetFinishSips-section-content {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 0px 20px;
+        .SweetFinishSips-section-content-box {
+          padding: 10px;
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+
+          .info {
+            .info-heading-text {
+              font-size: 12px;
+            }
+          }
+        }
+
+        .desserts {
+          width: 100%;
+          height: 100%;
+          margin-left: 0px;
+          margin-bottom: -50px;
+        }
+      }
+    }
+
+    .SweetFinishSips-section-second {
+      .pattern-bottom-left {
+        width: 80%;
+        height: auto;
+        top: 600px;
+      }
+      .SweetFinishSips-section-content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20px;
+
+        .SweetFinishSips-section-content-box {
+          padding: 10px;
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+
+          .info {
+            .info-heading-text {
+              font-size: 12px;
+            }
+          }
+        }
+
+        .drinks {
+          width: 100%;
+          height: 100%;
+          margin-right: 0;
+          margin-bottom: -70px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+.crafted-with-care-section {
+  width: 100%;
+  background: #f8e7ef;
+  padding: 70px 0px;
+  .crafted-right-vector-image {
+    position: relative;
+    img {
+      position: absolute;
+      width: auto;
+      object-fit: cover;
+      top: 85px;
+      right: 0px;
+    }
+  }
+  .crafted-left-right-part {
+    padding: 0px 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    .crafted-left-part {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h2,
+      h5,
+      p {
+        margin: 0;
+      }
+      h2 {
+        font-family: Frisbee;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 55px;
+        line-height: 45px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #e30450;
+      }
+      h5 {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #db0346;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+      }
+    }
+    .crafted-right-part {
+      width: 100%;
+      background: #e304501a;
+      background-blend-mode: multiply;
+      padding: 60px 50px;
+      border-radius: 18px;
+      h4,
+      p {
+        margin: 0;
+      }
+      h4 {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #dd044b;
+      }
+      p {
+        font-family: Brother 1816;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0%;
+        color: #2c2c2c;
+        margin-top: 8px;
+        margin-bottom: 18px;
+      }
+      .social-icons-text {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        h6 {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: 0%;
+          color: #2c2c2c;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .view-menu-both-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+    button {
+      cursor: pointer;
+      border: none;
+    }
+    .view-menu {
+      width: 159px;
+      height: 43px;
+      border-radius: 18px;
+      background: #dd044b;
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    .request-btn {
+      width: 225px;
+      height: 43px;
+      border-radius: 18px;
+      border: 2px solid #dd044b;
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #dd044b;
+      background-color: transparent;
+    }
+  }
+}
+@media (max-width:1380px) {
+.crafted-with-care-section {
+  .crafted-left-right-part {
+    padding: 0px 40px;
+  }
+}
+}
+@media (max-width:1024px) {
+.crafted-with-care-section {
+  .crafted-right-vector-image {
+    position: relative;
+    img {
+      position: absolute;
+      width: auto;
+      object-fit: cover;
+      top: 85px;
+      right: 0px;
+    }
+  }
+  .crafted-left-right-part {
+    padding: 0px 20px;
+    .crafted-left-part {
+      h2 {
+        font-size: 45px;
+      }
+    }
+    .crafted-right-part {
+      padding: 40px 30px;
+    }
+  }
+}
+}
+@media (max-width:1024px) {
+.crafted-with-care-section {
+  .crafted-left-right-part {
+    .crafted-left-part {
+      h2 {
+        font-size: 36px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 768px) {
+  .crafted-with-care-section {
+    padding: 40px 0px;
+    .crafted-right-vector-image {
+      img {
+        width: 100px;
+        height: auto;
+        top: 295px;
+      }
+    }
+    .crafted-left-right-part {
+      padding: 0px 20px;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      .crafted-left-part {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        h2 {
+          font-size: 22px;
+          line-height: 100%;
+        }
+        h5 {
+          font-size: 16px;
+          line-height: 21px;
+        }
+      }
+      .crafted-right-part {
+        padding: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 20px;
+        }
+        p {
+          margin-top: 8px;
+          margin-bottom: 18px;
+        }
+        .social-icons-text {
+          margin-top: 15px;
+        }
+      }
+    }
+    .view-menu-both-button {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 40px;
+      .view-menu {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .request-btn {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+  }
+}

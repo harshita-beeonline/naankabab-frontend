@@ -1,0 +1,172 @@
+.afgan-section {
+  background-color: #fff;
+  padding: 100px;
+
+  .afgan-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-family: Frisbee;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: 0%;
+      color: #002f6c;
+      max-width: 800px;
+    }
+
+    a {
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-size: 24px;
+      color: #2c2c2c;
+      text-decoration: underline;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
+
+    .card {
+      background-color: #fef7ff;
+      border-radius: 12px;
+      overflow: hidden;
+
+      .imageWrapper {
+        img {
+          width: 100%;
+        }
+      }
+
+      .cardContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px;
+
+        h3,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          color: #002f6c;
+        }
+
+        .subtitle {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 16px;
+          color: #2c2c2c;
+        }
+
+        .description {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 14px;
+          color: #2c2c2cb2;
+        }
+
+        .readMoreBtn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          background-color: #002f6c;
+          color: white;
+          font-family: "Brother 1816", sans-serif;
+          border: none;
+          border-radius: 30px;
+          padding: 10px 22px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .afgan-section {
+    padding: 50px;
+
+    .grid {
+      gap: 30px;
+
+      .card {
+        .cardContent {
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .afgan-section {
+    .afgan-header {
+      align-items: start;
+      h2 {
+        font-size: 32px;
+        line-height: 40px;
+        width: 500px;
+      }
+
+      a {
+        font-size: 18px;
+        top: 0;
+      }
+    }
+
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .afgan-section {
+    padding: 20px;
+
+    .afgan-header {
+      margin-bottom: 20px;
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 280px;
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+}

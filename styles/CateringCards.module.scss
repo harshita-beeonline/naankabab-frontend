@@ -1,0 +1,274 @@
+.catering-cards-section {
+  width: 100%;
+  background: #ffeacf;
+  padding: 140px 100px 80px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-family: Frisbee;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f16f26;
+    margin: 0;
+  }
+  p {
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2c2c2c;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .all-catering-cards-section {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    place-items: center;
+    justify-self: center;
+    gap: 50px;
+    margin-top: 40px;
+    a {
+      text-decoration: none;
+    }
+    .catering-card {
+      width: 374px;
+      height: 512px;
+      padding: 40px;
+      border-radius: 18px;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 37.4%,
+        rgba(0, 0, 0, 0.3) 100%
+      );
+      background-blend-mode: multiply;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      transition: background-size 0.5s ease;
+      h2 {
+        font-family: Frisbee;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-shadow: 0px 4px 12.2px 0px #000000cf;
+        z-index: 2;
+        transition: transform 0.4s ease, opacity 0.4s ease;
+        margin: 0;
+      }
+      button {
+        display: none;
+        transition: all 0.4s ease;
+        z-index: 2;
+        pointer-events: none;
+      }
+      button {
+        width: 144px;
+        height: 45px;
+        border-radius: 18px;
+        background: #ffffff;
+        font-family: Brother 1816;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #f16f26;
+        cursor: pointer;
+        border: none;
+        margin-top: 18px;
+      }
+      &:hover {
+        background-size: 105%;
+
+        h2 {
+          transform: translateY(-8px);
+        }
+        button {
+          display: block;
+        }
+        button {
+          transition-delay: 0.25s;
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+  h6 {
+    font-family: Brother 1816;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f16f26;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .order-both-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    .order-button {
+      width: 168px;
+      height: 43px;
+      border-radius: 18px;
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #ffffff;
+      cursor: pointer;
+      background: #f16f26;
+      border: none;
+    }
+    .request-button {
+      width: 225px;
+      height: 43px;
+      border-radius: 18px;
+      border: none;
+      border: 2px solid #f16f26;
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #f16f26;
+      cursor: pointer;
+      background-color: transparent;
+    }
+  }
+}
+
+@media (max-width: 1380px) {
+  .catering-cards-section {
+    padding: 120px 40px;
+    .all-catering-cards-section {
+      gap: 30px;
+      .catering-card {
+        width: 340px;
+        height: 480px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .catering-cards-section {
+    padding: 120px 40px 80px 40px;
+    .all-catering-cards-section {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      .catering-card {
+        width: 300px;
+        height: 430px;
+      }
+    }
+  }
+}
+
+@media (max-width: 938px) {
+  .catering-cards-section {
+    padding: 120px 20px 80px 20px;
+    h2 {
+      font-size: 38px;
+    }
+    .all-catering-cards-section {
+      grid-template-columns: repeat(2, 1fr);
+      .catering-card {
+        width: 260px;
+        height: 360px;
+        h2 {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .catering-cards-section {
+    padding: 100px 20px 40px 20px;
+    h2 {
+      font-size: 32px;
+      width: 100%;
+    }
+    .all-catering-cards-section {
+      grid-template-columns: repeat(2, 1fr);
+      @media (max-width: 620px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      gap: 30px;
+      margin-top: 40px;
+      .catering-card {
+        width: 269px;
+        height: 370px;
+        padding: 40px;
+        h2 {
+          font-size: 30px;
+        }
+        button {
+          width: 140px;
+          height: 40px;
+          font-size: 16px;
+          margin-top: 18px;
+        }
+      }
+    }
+    h6 {
+      font-size: 16px;
+      margin-top: 30px;
+    }
+    .order-both-button {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 30px;
+      .order-button {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .request-button {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .catering-cards-section {
+    padding: 80px 20px;
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

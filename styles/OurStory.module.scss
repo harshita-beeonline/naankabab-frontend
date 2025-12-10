@@ -1,0 +1,142 @@
+.ourstory-section-container {
+  width: 100%;
+  background-color: #f8e7ef;
+  padding: 60px 0px 80px 0px;
+  .ourstory-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left-right-content-section {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      justify-content: center;
+      width: 75%;
+      .left-content-section {
+        h2,
+        h5 {
+          margin: 0;
+        }
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 84px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #e30450;
+          white-space: nowrap;
+        }
+        h5 {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #e30450;
+        }
+      }
+      .divider {
+        width: 8px;
+        height: 72px;
+        background-color: #e30450;
+      }
+      .right-content-section {
+        .para-content {
+          p {
+            font-family: Brother 1816;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0%;
+            color: #2c2c2c;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  .discovery-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    button {
+      width: 253px;
+      height: 43px;
+      border-radius: 18px;
+      background: #e30450;
+      cursor: pointer;
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}
+@media (max-width:1280px) {
+.ourstory-section-container {
+  padding: 60px 0px;
+  .ourstory-content-section {
+    .left-right-content-section {
+      gap: 40px;
+      width: 95%;
+    }
+  }
+}  
+}
+@media (max-width: 768px) {
+  .ourstory-section-container {
+    padding: 40px  0px;
+    .ourstory-content-section {
+      padding: 0px 20px;
+      .left-right-content-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        width: 100%;
+        .left-content-section {
+          h2 {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          h5 {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+        .divider {
+         display: none;
+        }
+        .right-content-section {
+          .para-content {
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+    .discovery-button {
+      margin-top: 40px;
+      button {
+        width: 208px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+  }
+}

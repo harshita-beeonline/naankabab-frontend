@@ -1,0 +1,87 @@
+.contact-banner-section {
+  width: 100%;
+  background-image: url("../public/images/contactbanner.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 700px;
+
+  .contact-banner-content {
+    padding: 0px 150px;
+
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      font-family: Frisbee;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 45px;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    p {
+      font-family: Brother 1816;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      color: #ffffff;
+      width: 40%;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-banner-section {
+    .contact-banner-content {
+      padding: 0 80px;
+
+      p {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .contact-banner-section {
+    height: 400px;
+
+    .contact-banner-content {
+      padding: 0px 20px;
+
+      h2 {
+        font-size: 28px;
+        line-height: 40px;
+      }
+
+      p {
+        font-size: 14px;
+        width: 60%;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-banner-section {
+    height: 600px;
+
+    .contact-banner-content {
+      p {
+        width: 90%;
+      }
+    }
+  }
+}

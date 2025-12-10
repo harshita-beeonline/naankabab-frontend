@@ -1,0 +1,523 @@
+.chefhome-section {
+  background-color: #ffeacf;
+  padding: 100px 0px;
+
+  .chefhome-section-first {
+    position: relative;
+
+    .chefselects_rightbanner {
+      position: absolute;
+      bottom: 100px;
+      right: -300px;
+    }
+
+    .chefhome-conetnt-first {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .chefhome-conetnt-box {
+        padding: 60px 50px;
+        width: 1140px;
+        background-color: #f58c2b1a;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 45px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #f16f26;
+        }
+
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #f16f26;
+        }
+
+        .chefhome-menu {
+          .chefhome-menu-heading-withprice {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .chefhome-menu-heading {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
+            p {
+              font-family: Brother 1816;
+              font-weight: 400;
+              font-style: Regular;
+              font-size: 18px;
+              line-height: 20px;
+              text-transform: uppercase;
+              color: #002f6c;
+            }
+          }
+
+          p {
+            font-family: Brother 1816;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 15px;
+            text-transform: none;
+            color: #002f6c;
+            padding-top: 5px;
+          }
+        }
+      }
+
+      .chefhome-dish {
+        width: 1140px;
+        height: 510px;
+        z-index: 2;
+        margin-top: -50px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .chefhome-section-second {
+    position: relative;
+    .homestyleentrees_leftbanner {
+      position: absolute;
+      left: -500px;
+    }
+
+    .chefhome-content-second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .homestyleentrees {
+        width: 585px;
+        height: 518px;
+        z-index: 1;
+
+        img {
+          width: 100%;
+          height: 100%;
+          transform: scaleX(-1); // 👈 flips the image horizontally (mirror)
+        }
+      }
+
+      .chefhome-content-second-box {
+        padding: 60px 50px;
+        width: 585px;
+        background-color: #f58c2b1a;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-family: Frisbee;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 55px;
+          line-height: 45px;
+          letter-spacing: 0%;
+          text-transform: uppercase;
+          color: #f16f26;
+        }
+
+        p {
+          font-family: Brother 1816;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #f16f26;
+        }
+
+        .chefhome-menu {
+          .chefhome-menu-heading-withprice {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .chefhome-menu-heading {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
+            p {
+              font-family: Brother 1816;
+              font-weight: 400;
+              font-style: Regular;
+              font-size: 18px;
+              line-height: 20px;
+              text-transform: uppercase;
+              color: #002f6c;
+            }
+          }
+
+          p {
+            font-family: Brother 1816;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 15px;
+            text-transform: none;
+            color: #002f6c;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .chefhome-section {
+    padding: 50px 0px;
+    .chefhome-section-first {
+      .chefselects_rightbanner {
+        width: 60%;
+        height: 50%;
+      }
+
+      .chefhome-conetnt-first {
+        padding: 0 50px;
+        .chefhome-conetnt-box {
+          padding: 40px 30px;
+          width: 900px;
+        }
+
+        .chefhome-dish {
+          width: 80%;
+          height: 80%;
+          margin-top: -20px;
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .chefhome-content-second {
+        padding: 0 50px;
+        .homestyleentrees {
+          width: 60%;
+          height: 60%;
+        }
+
+        .chefhome-content-second-box {
+          padding: 40px 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .chefhome-section {
+    .chefhome-section-first {
+      .chefhome-conetnt-first {
+        padding: 0 35px;
+
+        .chefhome-conetnt-box {
+          width: 750px;
+          padding: 35px 25px;
+
+          h2 {
+            font-size: 38px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+
+        .chefhome-dish {
+          width: 85%;
+          height: auto;
+          margin-top: -20px;
+
+          img {
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .chefhome-content-second {
+        padding: 0 35px;
+
+        .homestyleentrees {
+          width: 55%;
+          height: auto;
+        }
+
+        .chefhome-content-second-box {
+          padding: 35px 25px;
+
+          h2 {
+            font-size: 38px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .chefhome-section {
+    .chefhome-section-first {
+      .chefselects_rightbanner {
+        width: 60%;
+        height: 50%;
+      }
+
+      .chefhome-conetnt-first {
+        .chefhome-conetnt-box {
+          padding: 20px 20px;
+          width: 600px;
+          gap: 30px;
+
+          h2 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 14px;
+          }
+
+          .chefhome-menu {
+            .chefhome-menu-heading-withprice {
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .chefhome-dish {
+          width: 80%;
+          height: 80%;
+          margin-top: -20px;
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .homestyleentrees_leftbanner {
+        width: 60%;
+        height: 50%;
+        left: -200px;
+        top: 100px;
+      }
+      .chefhome-content-second {
+        .chefhome-content-second-box {
+          h2 {
+            font-size: 40px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .chefhome-section {
+    .chefhome-section-first {
+      .chefselects_rightbanner {
+        width: 55%;
+      }
+
+      .chefhome-conetnt-first {
+        .chefhome-conetnt-box {
+          width: 550px;
+
+          h2 {
+            font-size: 34px;
+          }
+
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .chefhome-content-second {
+        .chefhome-content-second-box {
+          h2 {
+            font-size: 34px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .chefhome-section {
+    .chefhome-section-first {
+      .chefhome-conetnt-first {
+        padding: 0 20px;
+
+        .chefhome-conetnt-box {
+          width: 100%;
+          padding: 25px;
+        }
+
+        .chefhome-dish {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .chefhome-content-second {
+        padding: 0 20px;
+        flex-direction: column;
+        gap: 25px;
+
+        .homestyleentrees {
+          width: 100%;
+          height: auto;
+        }
+
+        .chefhome-content-second-box {
+          width: 100%;
+          margin-top: -30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .chefhome-section {
+    .chefhome-section-first {
+      .chefselects_rightbanner {
+        right: -70px;
+        width: 45%;
+      }
+    }
+
+    .chefhome-section-second {
+      .homestyleentrees_leftbanner {
+        top: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .chefhome-section {
+    padding: 20px 0px;
+    .chefhome-section-first {
+      .chefselects_rightbanner {
+        width: 50%;
+        height: 30%;
+        right: -100px;
+        bottom: 0px;
+      }
+
+      .chefhome-conetnt-first {
+        padding: 0px 20px;
+        .chefhome-conetnt-box {
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+
+          .chefhome-menu {
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+
+        .chefhome-dish {
+          width: 100%;
+          height: 100%;
+          margin-top: 0px;
+        }
+      }
+    }
+
+    .chefhome-section-second {
+      .homestyleentrees_leftbanner {
+        width: 80%;
+        height: 20%;
+        left: 30px;
+        top: 60px;
+      }
+      .chefhome-content-second {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20px;
+        .homestyleentrees {
+          width: 80%;
+          height: 80%;
+        }
+
+        .chefhome-content-second-box {
+          margin-top: -50px;
+          padding: 10px;
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+
+          .chefhome-menu {
+            p {
+              font-size: 14px !important;
+            }
+            .p {
+              font-size: 12px !important;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
